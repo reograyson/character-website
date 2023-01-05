@@ -1,22 +1,68 @@
 body {
-	background-color: black;
+	background-color: #071A03;	
+	font-family: merriweather;
+	font-size: 20px;
+	color: gold
 }
 
 h1 {
 	color: goldenrod;
-	font: sans-serif;
-	font-size: 40px;
+	font-family: bebas neue, arial, sans-serif;
+	font-size: 75px;
+	margin-top: 5px;
 }
-.img-box {
+
+
+header {
 	text-align: center;
+}
+
+header div {
+	max-width: 1580px;
+	margin: 0 auto;
 }
 
 .loki-intro {
 	border: solid goldenrod 3px;
 	border-radius: 40px;
-	max-width: 1800px;
+	max-width: 100%;
+}
+
+main {
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 5px;
+	background-color:#073007;
+}
+
+h2 span{
+	margin-left: 2%;
+	font-family: smythe, sans-serif;
+	font-size: 50px;
+	color: gold;
+	border: solid goldenrod 1px;
+	border-radius: 10px;
+	padding: 3px 30px;
+	
+}
+
+.p1, .p2 {
+	background-color:#041800;
+	margin: 1% 1%;
+	border-radius: 10px;
+	padding: 5px;
+
 }
 
 
+p {
+	margin-left: 2%;;
+}
 
+a {
+	color: gold;
+}
+
+footer {
+	text-align: center;
 }
