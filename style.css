@@ -1,12 +1,13 @@
 body {
-	background-color: #071A03;	
+	background-color: #071A03;
 	font-family: merriweather;
 	font-size: 20px;
-	color: gold
+	color: gold;
+	line-height: 50px;
 }
 
 h1 {
-	color: goldenrod;
+	color: rgb(244, 232, 8);
 	font-family: bebas neue, arial, sans-serif;
 	font-size: 75px;
 	margin-top: 5px;
@@ -23,7 +24,7 @@ header div {
 }
 
 .loki-intro {
-	border: solid goldenrod 3px;
+	border: solid rgb(244, 232, 8) 3px;
 	border-radius: 40px;
 	max-width: 100%;
 }
@@ -32,22 +33,23 @@ main {
 	border-radius: 10px;
 	margin: 0 auto;
 	padding: 5px;
-	background-color:#073007;
+	background-color: #073007;
 }
 
-h2 span{
+h2 span {
 	margin-left: 2%;
 	font-family: smythe, sans-serif;
 	font-size: 50px;
-	color: gold;
+	color: rgb(244, 232, 8);
 	border: solid goldenrod 1px;
 	border-radius: 10px;
 	padding: 3px 30px;
-	
+
 }
 
-.p1, .p2 {
-	background-color:#041800;
+.p1,
+.p2 {
+	background-color: #041800;
 	margin: 1% 1%;
 	border-radius: 10px;
 	padding: 5px;
@@ -56,7 +58,8 @@ h2 span{
 
 
 p {
-	margin-left: 2%;;
+	margin-left: 2%;
+	;
 }
 
 a {
@@ -65,4 +68,5 @@ a {
 
 footer {
 	text-align: center;
+	font-size: 15px;
 }
