@@ -66,6 +66,10 @@ a {
 	color: gold;
 }
 
+a:hover {
+	background-color: darkgoldenrod;
+} 
+
 footer {
 	text-align: center;
 	font-size: 15px;
